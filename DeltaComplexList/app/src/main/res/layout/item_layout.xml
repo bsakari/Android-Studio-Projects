@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgPoster"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:textSize="25sp"
+        android:textColor="#ffe9c7"
+        android:id="@+id/tvnames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="King Wanyama" />
+
+    <TextView
+        android:textColor="#ffe9c7"
+        android:textSize="14sp"
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="king@gmail.com" />
+
+    <TextView
+        android:textColor="#ffe9c7"
+        android:textSize="14sp"
+        android:id="@+id/tvamount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ksh3000000" />
+    </LinearLayout>
+</LinearLayout>

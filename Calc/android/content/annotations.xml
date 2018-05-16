@@ -1,0 +1,5 @@
+<root>
+    <item name='android.content.Intent FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET'>
+        <annotation name='android.support.annotation.Nullable' />
+    </item>
+</root>

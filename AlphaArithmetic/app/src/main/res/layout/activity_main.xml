@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alpha.alphaarithmetic.MainActivity">
+
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/tvanswer"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:textColor="#04f904"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/fnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvanswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="Enter The First Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/snum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fnum"
+        android:layout_alignStart="@+id/fnum"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Enter The Second Number"
+        android:inputType="number" />
+
+    <Button
+        android:onClick="Calculate"
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:text="Calculate" />
+</RelativeLayout>

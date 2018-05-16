@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.kingwanyama.afterclass.MainActivity">
+
+    <Button
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:onClick="calculate"
+        android:text="Calculate"
+        android:background="#5b60f9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:id="@+id/Calulate" />
+
+    <TextView
+        android:gravity="center"
+        android:background="#5b60f9"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/outputInterest"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:textColorHint="#fff"
+        android:hint="Principle?"
+        android:layout_width="match_parent"
+        android:background="#5b60f9"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/Principle"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/outputInterest"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:textColorHint="#fff"
+        android:hint="Rate?"
+        android:background="#5b60f9"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/Rate"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/Principle"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:textColorHint="#fff"
+        android:hint="Time?"
+        android:background="#5b60f9"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/Time"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

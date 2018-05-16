@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.king.persistance.MainActivity">
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000d9b"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Persist Values With Shared Preferences" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000d9b"
+        android:id="@+id/persistTextEdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000d9b"
+        android:id="@+id/checkPersistState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/persistTextEdt"
+        android:layout_alignStart="@+id/persistTextEdt"
+        android:layout_centerVertical="true"
+        android:text="Check or Uncheck" />
+
+    <Button
+        android:id="@+id/persistValues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkPersistState"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="Persist Values" />
+</RelativeLayout>

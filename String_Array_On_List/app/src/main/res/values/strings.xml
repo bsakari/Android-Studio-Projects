@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">String_Array_On_List</string>
+    <string-array name="king">
+        <item>King</item>
+        <item>Wanyama</item>
+        <item>Senior</item>
+        <item>Belongs</item>
+        <item>To</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+        <item>Christ</item>
+    </string-array>
+</resources>

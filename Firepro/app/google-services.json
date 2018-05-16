@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "723964515539",
+    "firebase_url": "https://kingpro-2c19d.firebaseio.com",
+    "project_id": "kingpro-2c19d",
+    "storage_bucket": "kingpro-2c19d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723964515539:android:3938b852cf3d00d7",
+        "android_client_info": {
+          "package_name": "com.kingwanyama.firepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723964515539-pnmcnnh223dvs91bopn97p01jmqdam74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuoWg-C6lxrgjGxmZ_WRqlhQSrJPNQXas"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

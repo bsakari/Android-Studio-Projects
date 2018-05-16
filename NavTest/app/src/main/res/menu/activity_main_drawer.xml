@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/picha"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Piga Picha" />
+        <item
+            android:id="@+id/tazama"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Tazama Picha" />
+        <item
+            android:id="@+id/ona"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ona Movie" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/call"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Piga Simu" />
+            <item
+                android:id="@+id/message"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Tuma Message" />
+        </menu>
+    </item>
+
+</menu>

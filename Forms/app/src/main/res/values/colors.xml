@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="inputcolorBlue">#405dff</color>
+    <color name="textcolorCream">#83290a</color>
+    <color name="bordercolorPurple">#a306ec</color>
+    <color name="bordercolorAccent">#f9dc04</color>
+</resources>

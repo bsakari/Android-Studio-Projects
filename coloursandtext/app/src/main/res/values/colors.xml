@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f28cef</color>
+    <color name="colorPrimaryDark">#f70fdc</color>
+
+    <!--These are the colours for Text Views-->
+    <color name="colorAccent">#64ecc8</color>
+    <color name="colorMaroon">#ae1719</color>
+    <color name="colorPink">#ed0e5a</color>
+    <color name="colorPurple">#930ce1</color>
+    <color name="colorOrange">#df130c</color>
+</resources>

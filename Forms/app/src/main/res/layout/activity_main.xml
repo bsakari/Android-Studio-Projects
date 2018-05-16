@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/mimi"
+    android:padding="20dp"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.kingwanyama.forms.MainActivity">
+
+    <EditText
+        android:background="@drawable/input_selector"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="@color/textcolorCream"
+        android:textColorHint="@color/inputcolorBlue"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Enter Full Names" />
+
+    <EditText
+        android:background="@drawable/input_selector"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/textcolorCream"
+        android:textColorHint="@color/inputcolorBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:hint="eMail Address" />
+
+    <EditText
+        android:background="@drawable/input_selector"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/textcolorCream"
+        android:textColorHint="@color/inputcolorBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:hint="Enter Password" />
+
+    <EditText
+        android:background="@drawable/input_selector"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/textcolorCream"
+        android:textColorHint="@color/inputcolorBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:hint="Phone Number" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="@string/submit"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_selector"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+</LinearLayout>

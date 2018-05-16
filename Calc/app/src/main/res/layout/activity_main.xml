@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alpha.calc.MainActivity">
+
+    <TextView
+        android:id="@+id/tvanswer"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/fnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvanswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="First Number"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/snum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fnum"
+        android:layout_alignStart="@+id/fnum"
+        android:layout_below="@+id/fnum"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Second Number"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/snum"
+        android:layout_alignStart="@+id/snum"
+        android:layout_centerVertical="true"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/snum"
+        android:layout_alignRight="@+id/snum"
+        android:layout_alignTop="@+id/btn1"
+        android:text="Subtract" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn1"
+        android:layout_alignRight="@+id/btn1"
+        android:layout_below="@+id/btn1"
+        android:layout_marginTop="41dp"
+        android:text="Divide" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn3"
+        android:layout_alignLeft="@+id/btn2"
+        android:layout_alignStart="@+id/btn2"
+        android:text="Multiply" />
+</RelativeLayout>

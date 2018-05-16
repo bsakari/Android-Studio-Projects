@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "773550254716",
+    "firebase_url": "https://my-firebase-2fe2a.firebaseio.com",
+    "project_id": "my-firebase-2fe2a",
+    "storage_bucket": "my-firebase-2fe2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773550254716:android:8263b028e0a3b17d",
+        "android_client_info": {
+          "package_name": "com.kingwanyama.fbproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773550254716-i6vts896lvc8ir5hchalqft8f1r3km08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtIf6TEA34CGLNnQEvXr6m4q3p0IjlE3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

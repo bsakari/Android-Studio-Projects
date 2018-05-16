@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Listeners</string>
+    <string name="title_activity_logged_in">LoggedInActivity</string>
+</resources>

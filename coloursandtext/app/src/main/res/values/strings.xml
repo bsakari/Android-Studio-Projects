@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">coloursandtext</string>
+    <string name="thank_you_jesus">Thank You Jesus</string>
+    <string name="be_thou_glorified">Be Thou Glorified</string>
+    <string name="be_thou_magnified" translatable="false">Be Thou Magnified</string>
+    <string name="be_thou_exalted">Be Thou Exalted</string>
+</resources>

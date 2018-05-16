@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "471101280004",
+    "firebase_url": "https://mobi-lawyer.firebaseio.com",
+    "project_id": "mobi-lawyer",
+    "storage_bucket": "mobi-lawyer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471101280004:android:aad15eddee2ea1be",
+        "android_client_info": {
+          "package_name": "com.king.mobilawyer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471101280004-pkh8oqptgopa4p1je91frgnae6jkt3mq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.king.mobilawyer",
+            "certificate_hash": "8773212f0ce22766aa8fa51750a3bce684de9fae"
+          }
+        },
+        {
+          "client_id": "471101280004-hbt0qc7n8n3j9nqrr0mkh187h0gud0bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRXzf2GmBXSEo-2R6GISBgrRTOXMJ3sRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471101280004-hbt0qc7n8n3j9nqrr0mkh187h0gud0bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

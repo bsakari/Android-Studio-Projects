@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.king.alphapersistance.MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#7725e4"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Shared Preference Persistance" />
+
+    <EditText
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#7725e4"
+        android:id="@+id/edt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Enter Text"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#7725e4"
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edt1"
+        android:layout_alignStart="@+id/edt1"
+        android:layout_below="@+id/edt1"
+        android:layout_marginTop="67dp"
+        android:text="Check or Uncheck" />
+
+    <Button
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/check1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:background="#600178"
+        android:text="Persist  Values"
+        android:textColor="#ffffff" />
+</RelativeLayout>

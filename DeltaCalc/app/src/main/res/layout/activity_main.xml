@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alpha.deltacalc.MainActivity">
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#1d002e"
+        android:textStyle="bold"
+        android:id="@+id/tvanswer"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/fnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvanswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter The First Number"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/snum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fnum"
+        android:layout_alignRight="@+id/fnum"
+        android:layout_below="@+id/fnum"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter The Second Number"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/snum"
+        android:layout_alignStart="@+id/snum"
+        android:layout_below="@+id/snum"
+        android:layout_marginTop="32dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btn_subtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_add"
+        android:layout_alignEnd="@+id/snum"
+        android:layout_alignRight="@+id/snum"
+        android:text="Subtract" />
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_add"
+        android:layout_alignRight="@+id/btn_add"
+        android:layout_below="@+id/btn_add"
+        android:layout_marginTop="42dp"
+        android:text="Divide" />
+
+    <Button
+        android:id="@+id/btn_multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_subtract"
+        android:layout_alignStart="@+id/btn_subtract"
+        android:layout_alignTop="@+id/btn_divide"
+        android:text="Multiply" />
+</RelativeLayout>
